@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    
+}
+body{
+  background-size: cover;
+    color: black;
+    text-shadow: 2px 2px 4px  #fff;
+   
+}
+.container {
+  margin: 20px;
+  display: flex; 
+  align-items:center ;
+  justify-content: center;
+}
+.ReportForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  height: 100%;
+  width: 25rem;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  background-color: antiquewhite;
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.2);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 15px;
+  backdrop-filter: blur(75px);
+  border: solid 1px black;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: grey;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
